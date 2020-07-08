@@ -42,7 +42,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |element|
-    planeteer_calls[element] == valid_calls[element].include?
+    element == valid_calls[element].include?
   end
 end
 
